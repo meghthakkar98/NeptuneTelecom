@@ -12,6 +12,15 @@ body
 	text-align: center;
 }
 
+#img3
+{	
+	margin: auto;			
+	width: 60%;
+	display: block;
+	text-align: center;
+}
+
+
 #img2
 {
 		border: 2px solid #777;
