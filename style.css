@@ -1,0 +1,192 @@
+body
+{
+	background-color: #ffffff;
+}
+
+#img1
+{	
+	margin: auto;
+	padding-top: 40px;			
+	width: 60%;
+	display: block;
+	text-align: center;
+}
+
+#img2
+{
+		border: 2px solid #777;
+		width:190px;
+		height:190px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	padding-left: 230px;
+	font-family: "avenir", sans-serif;
+}
+
+p
+{
+	color:#737373;
+	word-spacing: 2px;
+	font-family: "avenir", sans-serif;
+	font-size: 18px;
+	text-align: center;
+	margin: 0px 250px 0px 250px ;
+
+}
+
+#pinnav
+		{
+			padding-bottom:  0 auto ;	
+		}
+
+#resnavgi	
+{
+	background-color: #f1f1f1;
+	position:fixed;
+	font-family: "avenir", sans-serif;
+	text-align:center;
+	top:0;
+	left: 0;
+	width:100%;
+	display: block;
+	padding-left: 14%;
+}	
+					
+#panelabt
+{
+	background-color: #F8F8F8;			
+}
+
+#panelabi,#panelcur,#paneledu
+{
+	display: none;
+	width: 100%;		
+	background-color: #F8F8F8;		
+}				
+
+
+#fliphome,#flipabt,#flipprod,#flipcont
+{
+	float: left;
+	font-size: 21px;
+	margin-top: 1%;
+	color:black;
+	padding-left: 10%;	 
+}
+
+#fliphome:hover,#flipabt:hover,#flipprod:hover,#flipcont:hover
+{
+	color: #3399ff;
+	cursor: pointer;
+}
+
+#go
+{
+	padding-bottom: 30%;
+}
+
+div.gallery 
+{
+    border: 1px solid #777;
+}
+
+div.gallery:hover 
+{
+    border: 1px solid #777;
+}
+
+div.gallery img 
+{
+	padding-top: 10px;
+    font-family: "avenir", sans-serif;
+    width: 0 auto;
+    height: 250px;
+}
+
+div.desc
+{
+	border: 1px solid #777;
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive 
+{
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px)
+{
+    .responsive
+    {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 100px)
+{
+    .responsive 
+    {
+        width: 100%;
+    }
+}
+
+.clearfix:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+ 
+ .teal
+ {
+ 	font-size: 14px;
+ 	color:#fff;
+ 	background-color:black;
+ }
+
+#foterpara
+{
+	padding: 5px 400px 0px 50px;
+	font-size: 24px;
+	font-family: "avenir", sans-serif;
+	color: white;
+}
+
+.container
+{
+	padding:0.01em 16px
+}
+
+
+.deskhide
+{
+	display: none;
+}
+
+#headers
+{
+	font-size: 40px;
+	font-family: "avenir", sans-serif;	
+}
+
+#icon
+{
+	text-decoration: none;
+	color:#0044cc;
+	word-spacing: 10px;
+}					
+#icon:hover
+{
+	text-decoration:none;
+	color:red;
+}
