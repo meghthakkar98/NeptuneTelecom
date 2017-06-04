@@ -61,12 +61,12 @@ p
 	padding-left: 14%;
 }	
 					
-#panelabt
+#panelhome
 {
 	background-color: #F8F8F8;			
 }
 
-#panelabi,#panelcur,#paneledu
+#panelabt,#panelprod,#panelcont
 {
 	display: none;
 	width: 100%;		
@@ -89,11 +89,7 @@ p
 	cursor: pointer;
 }
 
-#go
-{
-	padding-bottom: 20%;		
-}
-
+			
 div.gallery 
 {
     border: 1px solid #777;
