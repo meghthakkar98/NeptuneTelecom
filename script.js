@@ -10,3 +10,448 @@ function sdnav_open() {
 function sdnav_close() {
     document.getElementById("resnav").style.display = "none";
 }
+
+//intro
+$(document).ready(function(){
+    $("#fliphome").click(function(){
+        $("#panelhome").slideDown("slow"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#fliphome").click(function(){
+        $("#panelabt").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#fliphome").click(function(){
+        $("#panelprod").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#fliphome").click(function(){
+        $("#panelcont").hide();
+    });
+});
+
+$(document).ready(function(){
+        $("#fliphome").css("color", "#0044cc"); 
+    });
+
+
+$(document).ready(function(){
+    $("#fliphome").click(function(){
+        $("#fliphome").css("color", "#0044cc"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#fliphome").click(function(){
+        $("#flipabt").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#fliphome").click(function(){
+        $("#flipprod").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#fliphome").click(function(){
+        $("#flipcont").css("color", "black"); 
+    });
+});
+
+//about panel
+
+$(document).ready(function(){
+    $("#flipabt").click(function(){
+        $("#panelabt").slideDown("slow"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipabt").click(function(){
+        $("#panelhome").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipabt").click(function(){
+        $("#panelprod").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipabt").click(function(){
+        $("#panelcont").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipabt").click(function(){
+        $("#flipabt").css("color", "#0044cc"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipabt").click(function(){
+        $("#fliphome").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipabt").click(function(){
+        $("#flipprod").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipabt").click(function(){
+        $("#flipcont").css("color", "black"); 
+    });
+});
+
+
+//product panel
+
+$(document).ready(function(){
+    $("#flipprod").click(function(){
+        $("#panelprod").slideDown("slow"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipprod").click(function(){
+        $("#panelhome").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipprod").click(function(){
+        $("#panelabt").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipprod").click(function(){
+        $("#panelcont").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipprod").click(function(){
+        $("#flipprod").css("color", "#0044cc"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipprod").click(function(){
+        $("#fliphome").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipprod").click(function(){
+        $("#flipabt").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipprod").click(function(){
+        $("#flipcont").css("color", "black"); 
+    });
+});
+
+
+//contact panel
+
+$(document).ready(function(){
+    $("#flipcont").click(function(){
+        $("#panelcont").slideDown("slow"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipcont").click(function(){
+        $("#panelhome").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipcont").click(function(){
+        $("#panelabt").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipcont").click(function(){
+        $("#panelprod").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipcont").click(function(){
+        $("#flipcont").css("color", "#0044cc"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipcont").click(function(){
+        $("#fliphome").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipcont").click(function(){
+        $("#flipabt").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipcont").click(function(){
+        $("#flipprod").css("color", "black"); 
+    });
+});
+
+//mobile site
+
+//intro
+$(document).ready(function(){
+    $("#mfliphome").click(function(){
+        $("#panelhome").slideDown("slow"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mfliphome").click(function(){
+        $("#panelabt").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mfliphome").click(function(){
+        $("#panelprod").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mfliphome").click(function(){
+        $("#panelcont").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mfliphome").click(function(){
+        $("#resnav").hide();
+    });
+});
+
+$(document).ready(function(){
+        $("#mfliphome").css("color", "#0044cc"); 
+    });
+
+
+$(document).ready(function(){
+    $("#mfliphome").click(function(){
+        $("#mfliphome").css("color", "#0044cc"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mfliphome").click(function(){
+        $("#mflipabt").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mfliphome").click(function(){
+        $("#mflipprod").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mfliphome").click(function(){
+        $("#mflipcont").css("color", "black"); 
+    });
+});
+
+//about panel
+
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#panelabt").slideDown("slow"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#panelhome").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#panelprod").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#panelcont").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#resnav").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#mflipabt").css("color", "#0044cc"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#mfliphome").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#mflipprod").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#mflipcont").css("color", "black"); 
+    });
+});
+
+
+//product panel
+
+$(document).ready(function(){
+    $("#mflipprod").click(function(){
+        $("#panelprod").slideDown("slow"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipprod").click(function(){
+        $("#panelhome").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipprod").click(function(){
+        $("#panelabt").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipprod").click(function(){
+        $("#panelcont").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipprod").click(function(){
+        $("#resnav").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipprod").click(function(){
+        $("#mflipprod").css("color", "#0044cc"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipprod").click(function(){
+        $("#mfliphome").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipprod").click(function(){
+        $("#mflipabt").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipprod").click(function(){
+        $("#mflipcont").css("color", "black"); 
+    });
+});
+
+
+//contact panel
+
+$(document).ready(function(){
+    $("#mflipcont").click(function(){
+        $("#panelcont").slideDown("slow"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipcont").click(function(){
+        $("#panelhome").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipcont").click(function(){
+        $("#panelabt").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipcont").click(function(){
+        $("#panelprod").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipcont").click(function(){
+        $("#resnav").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipcont").click(function(){
+        $(".bla").hide();
+    });
+});
+
+
+$(document).ready(function(){
+    $("#mflipcont").click(function(){
+        $("#mflipcont").css("color", "#0044cc"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipcont").click(function(){
+        $("#mfliphome").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipcont").click(function(){
+        $("#mflipabt").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipcont").click(function(){
+        $("#mflipprod").css("color", "black"); 
+    });
+});
