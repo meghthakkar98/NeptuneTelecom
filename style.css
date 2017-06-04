@@ -63,14 +63,14 @@ p
 					
 #panelhome
 {
-	background-color: #F8F8F8;			
+	background-color: #ffffff;			
 }
 
 #panelabt,#panelprod,#panelcont
 {
 	display: none;
 	width: 100%;		
-	background-color: #F8F8F8;		
+	background-color: #ffffff;		
 }				
 
 
