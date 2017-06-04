@@ -175,6 +175,15 @@ div.desc
 	font-family: "avenir", sans-serif;	
 }
 
+
+#pfot
+{
+	padding-left: 230px;
+	font-size: 18px;
+	font-family: "avenir", sans-serif;
+	color: #ffff1a;	
+}
+
 #icon
 {
 	text-decoration: none;
