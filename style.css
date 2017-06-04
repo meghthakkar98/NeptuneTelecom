@@ -1,8 +1,9 @@
 
 #img1
-{	
+{
+	height: 160px;	
 	margin: auto;
-	padding-top: 40px;			
+	padding-top: 50px;		
 	width: 60%;
 	display: block;
 	text-align: center;
@@ -10,6 +11,7 @@
 
 #img3
 {	
+	height: 100px;	
 	margin: auto;			
 	width: 60%;
 	display: block;
