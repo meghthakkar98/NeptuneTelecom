@@ -425,12 +425,6 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready(function(){
-    $("#mflipcont").click(function(){
-        $(".bla").hide();
-    });
-});
-
 
 $(document).ready(function(){
     $("#mflipcont").click(function(){
@@ -455,4 +449,3 @@ $(document).ready(function(){
         $("#mflipprod").css("color", "black"); 
     });
 });
-
