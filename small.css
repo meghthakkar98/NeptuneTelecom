@@ -1,37 +1,32 @@
-body
-{
-	background-color: #ffffff;
-}
 
 #img1
 {	
 	margin: auto;
 	padding-top: 40px;			
-	width: 100%;
+	width: 60%;
 	display: block;
 	text-align: center;
 }
-
 
 #img3
 {	
 	margin: auto;			
-	width: 100%;
+	width: 60%;
 	display: block;
 	text-align: center;
 }
 
+
 #img2
 {
 		border: 2px solid #777;
-		width:100%;
-		height: 30%;
-		margin: auto;
-		display: block;
+		width:190px;
+		height:190px;
 }
 
 h1,h2,h3,h4,h5,h6
 {
+	padding-left: 230px;
 	font-family: "avenir", sans-serif;
 }
 
@@ -40,61 +35,36 @@ p
 	color:#737373;
 	word-spacing: 2px;
 	font-family: "avenir", sans-serif;
-	font-size: 17px;
+	font-size: 18px;
 	text-align: center;
-	margin: 0 auto ;
-	color:#737373;
+	margin: 0px 250px 0px 250px ;
 
 }
-
-button
-{
-	top: 0;
-	right: 0;
-	border:none; 
-    color: white;
-    background-color: blue;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-  	position: fixed;	
-}	
-
-#y
-{	
-	font-size:30px;
-	top: 0;
-	left: 0;
-	padding-left:50%;
-	text-align: center;
-	color: black;
-	background-color:#f1f1f1;
-}
-
-#resnav
-{
-	top: 0;
-	left: 0;
-	background-color:#f1f1f1; 
-	position: fixed;
-	width: 60%;
-	height: 100%;
-	text-align: center;
-}
-
 
 #pinnav
 		{
 			padding-bottom:  0 auto ;	
 		}
 
-#panelhome
+#resnavgi	
+{
+	background-color: #f1f1f1;
+	position:fixed;
+	font-family: "avenir", sans-serif;
+	text-align:center;
+	top:0;
+	left: 0;
+	width:100%;
+	display: block;
+	padding-left: 14%;
+}	
+					
+#panelabt
 {
 	background-color: #F8F8F8;			
 }
 
-#panelabt,#panelprod,#panelcont
+#panelabi,#panelcur,#paneledu
 {
 	display: none;
 	width: 100%;		
@@ -102,29 +72,27 @@ button
 }				
 
 
-#mfliphome,#mflipabt,#mflipprod,#mflipcont
+#fliphome,#flipabt,#flipprod,#flipcont
 {
-	padding-top: 70px;
 	float: left;
-	font-size: 25px;
+	font-size: 21px;
 	margin-top: 1%;
 	color:black;
-	padding-left: 10%;	 
+	padding-left: 12%;	 
 }
 
-#mfliphome:hover,#mflipabt:hover,#mflipprod:hover,#mflipcont:hover
+#fliphome:hover,#flipabt:hover,#flipprod:hover,#flipcont:hover
 {
 	color: #3399ff;
 	cursor: pointer;
 }
 
-.mhide
+#go
 {
-	display: none;
+	padding-bottom: 20%;		
 }
 
-
-div.gallery
+div.gallery 
 {
     border: 1px solid #777;
 }
@@ -136,14 +104,15 @@ div.gallery:hover
 
 div.gallery img 
 {
-    width: 100%;
-    height: auto;
+	padding-top: 10px;
+    font-family: "avenir", sans-serif;
+    width: 0 auto;
+    height: 250px;
 }
 
-div.desc 
+div.desc
 {
 	border: 1px solid #777;
-    background-color:#f1f1f1;
     padding: 15px;
     text-align: center;
 }
@@ -161,7 +130,7 @@ div.desc
 
 @media only screen and (max-width: 700px)
 {
-    .responsive 
+    .responsive
     {
         width: 49.99999%;
         margin: 6px 0;
@@ -182,40 +151,27 @@ div.desc
     display: table;
     clear: both;
 }
-
  
- .teal
- {
- 	font-size: 14px;
- 	color:#fff;
- 	background-color:black;
- }
 
-#foterpara
+.bla
 {
-	
-	font-size: 24px;
-	font-family: "avenir", sans-serif;
+	padding:10px;
+	margin-top: 10px;
+	font-family: 'Pacifico', cursive;
+	width: 100%;
 	color: white;
+	background-color:black;
 }
 
-.container
-{
-	padding: 0.01em 16px;
-	font-size: 14px;
-	font-family: "avenir", sans-serif;
-	color: white;
-	margin-top: 50px;
-}
 
-.mmhide
+.deskhide
 {
 	display: none;
 }
 
 #headers
 {
-	font-size: 24px;
+	font-size: 30px;
 	font-family: "avenir", sans-serif;	
 }
 
@@ -229,4 +185,4 @@ div.desc
 {
 	text-decoration:none;
 	color:red;
-				}
+}
