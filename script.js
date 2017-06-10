@@ -37,31 +37,31 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-        $("#fliphome").css("color", "#0044cc"); 
+        $("#fliphome").css("color", "#bfbfbf"); 
     });
 
 
 $(document).ready(function(){
     $("#fliphome").click(function(){
-        $("#fliphome").css("color", "#0044cc"); 
-    });
-});
-
-$(document).ready(function(){
-    $("#fliphome").click(function(){
-        $("#flipabt").css("color", "black"); 
+        $("#fliphome").css("color", "#bfbfbf"); 
     });
 });
 
 $(document).ready(function(){
     $("#fliphome").click(function(){
-        $("#flipprod").css("color", "black"); 
+        $("#flipabt").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
     $("#fliphome").click(function(){
-        $("#flipcont").css("color", "black"); 
+        $("#flipprod").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#fliphome").click(function(){
+        $("#flipcont").css("color", "white"); 
     });
 });
 
@@ -93,25 +93,25 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#flipabt").click(function(){
-        $("#flipabt").css("color", "#0044cc"); 
+        $("#flipabt").css("color", "#bfbfbf"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipabt").click(function(){
-        $("#fliphome").css("color", "black"); 
+        $("#fliphome").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipabt").click(function(){
-        $("#flipprod").css("color", "black"); 
+        $("#flipprod").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipabt").click(function(){
-        $("#flipcont").css("color", "black"); 
+        $("#flipcont").css("color", "white"); 
     });
 });
 
@@ -144,25 +144,25 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#flipprod").click(function(){
-        $("#flipprod").css("color", "#0044cc"); 
+        $("#flipprod").css("color", "#bfbfbf"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipprod").click(function(){
-        $("#fliphome").css("color", "black"); 
+        $("#fliphome").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipprod").click(function(){
-        $("#flipabt").css("color", "black"); 
+        $("#flipabt").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipprod").click(function(){
-        $("#flipcont").css("color", "black"); 
+        $("#flipcont").css("color", "white"); 
     });
 });
 
@@ -195,25 +195,25 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#flipcont").click(function(){
-        $("#flipcont").css("color", "#0044cc"); 
+        $("#flipcont").css("color", "#bfbfbf"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipcont").click(function(){
-        $("#fliphome").css("color", "black"); 
+        $("#fliphome").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipcont").click(function(){
-        $("#flipabt").css("color", "black"); 
+        $("#flipabt").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipcont").click(function(){
-        $("#flipprod").css("color", "black"); 
+        $("#flipprod").css("color", "white"); 
     });
 });
 
@@ -251,31 +251,31 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-        $("#mfliphome").css("color", "#0044cc"); 
+        $("#mfliphome").css("color", "#bfbfbf"); 
     });
 
 
 $(document).ready(function(){
     $("#mfliphome").click(function(){
-        $("#mfliphome").css("color", "#0044cc"); 
-    });
-});
-
-$(document).ready(function(){
-    $("#mfliphome").click(function(){
-        $("#mflipabt").css("color", "black"); 
+        $("#mfliphome").css("color", "#bfbfbf"); 
     });
 });
 
 $(document).ready(function(){
     $("#mfliphome").click(function(){
-        $("#mflipprod").css("color", "black"); 
+        $("#mflipabt").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
     $("#mfliphome").click(function(){
-        $("#mflipcont").css("color", "black"); 
+        $("#mflipprod").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mfliphome").click(function(){
+        $("#mflipcont").css("color", "white"); 
     });
 });
 
@@ -313,25 +313,25 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#mflipabt").click(function(){
-        $("#mflipabt").css("color", "#0044cc"); 
+        $("#mflipabt").css("color", "#bfbfbf"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipabt").click(function(){
-        $("#mfliphome").css("color", "black"); 
+        $("#mfliphome").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipabt").click(function(){
-        $("#mflipprod").css("color", "black"); 
+        $("#mflipprod").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipabt").click(function(){
-        $("#mflipcont").css("color", "black"); 
+        $("#mflipcont").css("color", "white"); 
     });
 });
 
@@ -370,25 +370,25 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#mflipprod").click(function(){
-        $("#mflipprod").css("color", "#0044cc"); 
+        $("#mflipprod").css("color", "#bfbfbf"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipprod").click(function(){
-        $("#mfliphome").css("color", "black"); 
+        $("#mfliphome").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipprod").click(function(){
-        $("#mflipabt").css("color", "black"); 
+        $("#mflipabt").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipprod").click(function(){
-        $("#mflipcont").css("color", "black"); 
+        $("#mflipcont").css("color", "white"); 
     });
 });
 
@@ -428,24 +428,26 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#mflipcont").click(function(){
-        $("#mflipcont").css("color", "#0044cc"); 
+        $("#mflipcont").css("color", "#bfbfbf"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipcont").click(function(){
-        $("#mfliphome").css("color", "black"); 
+        $("#mfliphome").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipcont").click(function(){
-        $("#mflipabt").css("color", "black"); 
+        $("#mflipabt").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipcont").click(function(){
-        $("#mflipprod").css("color", "black"); 
+        $("#mflipprod").css("color", "white"); 
     });
 });
+
+
