@@ -263,4 +263,55 @@ p.skills
 .eps {width: 92%; background-color: #99ccff;}
 .cds {width: 95%; background-color: #99ccff;}
 .sus {width: 97%; background-color: #99ccff;}
+.fd{width: 99%; background-color: #99ccff;}
+
+.skills2
+{
+
+  	padding-left: 60px;
+  	line-height: 20px;
+  	text-align: left;
+	color: black;
+	font-size:20px;
+	font-family:"avenir",cursive; 
+}
+
+p.skills2
+{
+	color: black;
+	font-size:20px;
+	font-family:"avenir",cursive; 
+	padding-left:0px;
+}	
        
+
+.dmr{width: 97%; background-color: #99ccff;}
+.da {width: 95%; background-color: #99ccff;}
+.di {width: 95%; background-color: #99ccff;}
+.dtg {width: 99%; background-color: #99ccff;}
+
+
+.skills3
+{
+
+  	padding-left: 60px;
+  	line-height: 20px;
+  	text-align: left;
+	color: black;
+	font-size:20px;
+	font-family:"avenir",cursive; 
+}
+
+p.skills3
+{
+	color: black;
+	font-size:20px;
+	font-family:"avenir",cursive; 
+	padding-left:0px;
+}	
+       
+
+.kmr{width: 95%; background-color: #99ccff;}
+.ka {width: 93%; background-color: #99ccff;}
+.ki {width: 98%; background-color: #99ccff;}
+.ktg {width: 99%; background-color: #99ccff;}
