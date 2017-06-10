@@ -251,13 +251,13 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-        $("#mfliphome").css("color", "#bfbfbf"); 
+        $("#mfliphome").css("color", "#3399ff"); 
     });
 
 
 $(document).ready(function(){
     $("#mfliphome").click(function(){
-        $("#mfliphome").css("color", "#bfbfbf"); 
+        $("#mfliphome").css("color", "#3399ff"); 
     });
 });
 
@@ -313,7 +313,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#mflipabt").click(function(){
-        $("#mflipabt").css("color", "#bfbfbf"); 
+        $("#mflipabt").css("color", "#3399ff"); 
     });
 });
 
@@ -370,7 +370,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#mflipprod").click(function(){
-        $("#mflipprod").css("color", "#bfbfbf"); 
+        $("#mflipprod").css("color", "#3399ff"); 
     });
 });
 
@@ -428,7 +428,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#mflipcont").click(function(){
-        $("#mflipcont").css("color", "#bfbfbf"); 
+        $("#mflipcont").css("color", "#3399ff"); 
     });
 });
 
