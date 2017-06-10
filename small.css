@@ -30,6 +30,14 @@
 			display: block;
 	}
 
+	#imgabt
+	{
+		height: 120px;
+		width: 120px;
+		padding-left: 30px;
+	}
+
+
 	h1,h2,h3,h4,h5,h6
 	{
 		font-family: "avenir", sans-serif;
