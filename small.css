@@ -115,12 +115,12 @@
 
 	#mfliphome,#mflipabt,#mflipprod,#mflipcont
 	{
-		padding-top: 70px;
-		float: left;
+		text-align: center;
+		padding-top: 50px;
 		font-size: 25px;
 		margin-top: 1%;
 		color:white;
-		padding-left: 17%;	 
+		padding-left: 0%;	 
 	}
 
 	#mfliphome:hover,#mflipabt:hover,#mflipprod:hover,#mflipcont:hover
