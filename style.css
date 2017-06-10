@@ -33,10 +33,6 @@ h1,h2,h3,h4,h5,h6
 	font-family: "avenir", sans-serif;
 }
 
-p
-{
-	
-}
 
 #prodset
 {
@@ -56,6 +52,15 @@ p
 	float: left;
 }
 
+#paraabtus
+{
+	text-align: center;
+	color: #737373;
+	font-family: "avenir",sans-serif;
+	font-size: 18px;
+	margin: 0px 250px 0px 250px;
+}
+
 #pinnav
 		{
 			padding-bottom:  0 auto ;	
@@ -63,7 +68,7 @@ p
 
 #resnavgi	
 {
-	background-color: #f1f1f1;
+	background-color: #000000;
 	position:fixed;
 	font-family: "avenir", sans-serif;
 	text-align:center;
@@ -92,13 +97,13 @@ p
 	float: left;
 	font-size: 21px;
 	margin-top: 1%;
-	color:black;
+	color:#ffffff;
 	padding-left: 12%;	 
 }
 
 #fliphome:hover,#flipabt:hover,#flipprod:hover,#flipcont:hover
 {
-	color: #3399ff;
+	color: blue;
 	cursor: pointer;
 }
 
@@ -211,3 +216,38 @@ div.desc
         height: 400px;
         width: 100%;
        }
+
+* {box-sizing: border-box}
+
+.container 
+{
+	text-align: center;
+  	width: 50%;
+  	background-color: #ddd;
+}
+
+.skills 
+{
+  
+  	padding-left: 230px;
+  	line-height: 40px;
+  	text-align: left;
+	color: black;
+	font-size:20px;
+	font-family:"avenir",cursive; 
+}
+
+p.skills
+{
+	color: black;
+	font-size:20px;
+	font-family:"avenir",cursive; 
+	padding-left:0px;
+}	
+
+
+.mrs {width: 96%; background-color: #99ccff;}
+.eps {width: 92%; background-color: #99ccff;}
+.cds {width: 95%; background-color: #99ccff;}
+.sus {width: 97%; background-color: #99ccff;}
+       
