@@ -37,13 +37,13 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-        $("#fliphome").css("color", "#bfbfbf"); 
+        $("#fliphome").css("color", "#3399ff"); 
     });
 
 
 $(document).ready(function(){
     $("#fliphome").click(function(){
-        $("#fliphome").css("color", "#bfbfbf"); 
+        $("#fliphome").css("color", "#3399ff"); 
     });
 });
 
@@ -93,7 +93,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#flipabt").click(function(){
-        $("#flipabt").css("color", "#bfbfbf"); 
+        $("#flipabt").css("color", "#3399ff"); 
     });
 });
 
@@ -144,7 +144,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#flipprod").click(function(){
-        $("#flipprod").css("color", "#bfbfbf"); 
+        $("#flipprod").css("color", "#3399ff"); 
     });
 });
 
@@ -195,7 +195,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#flipcont").click(function(){
-        $("#flipcont").css("color", "#bfbfbf"); 
+        $("#flipcont").css("color", "#3399ff"); 
     });
 });
 
