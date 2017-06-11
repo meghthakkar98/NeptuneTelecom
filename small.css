@@ -208,6 +208,13 @@
 		font-family: "avenir", sans-serif;	
 	}
 
+#map {
+		margin: 0;
+		padding: 0;
+        height: 400px;
+        width: 100%;
+       }
+
 
 #pfot
 {
