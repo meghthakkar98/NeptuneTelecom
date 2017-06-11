@@ -179,7 +179,7 @@ div.desc
 .bla
 {
 	padding:10px;
-	margin-top: 300px;
+	margin-top: 110px;
 	font-family: 'Pacifico', cursive;
 	width: 100%;
 	color: white;
@@ -220,6 +220,8 @@ div.desc
 }
 
 #map {
+		margin: 0;
+		padding: 0;
         height: 400px;
         width: 100%;
        }
