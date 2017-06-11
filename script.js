@@ -457,6 +457,6 @@ var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 23.0249460, lng: 72.5706800},
-          zoom: 8
+          zoom: 4
         });
       }
