@@ -453,10 +453,17 @@ $(document).ready(function(){
 
 
 //
-var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 23.0249460, lng: 72.5706800},
-          zoom: 4
-        });
-      }
+function initMap() {
+  var myLatLng = {lat: 23.0249460, lng: 72.5706800};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 17,
+    center: myLatLng
+  });
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Hello World!'
+  });
+}
