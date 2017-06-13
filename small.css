@@ -55,50 +55,31 @@
 
 	}
 
-	button
-	{
-		top: 0;
-		right: 0;
-		margin-right: 3%; 
-		margin-top: 3%;
-		border:none;
-		border-radius: 20%; 
-	    color: white;
-	    background-color:#4286f4 ;
-	    text-align: center;
-	    text-decoration: none;
-	    display: inline-block;
-	    font-size: 40px;
-	  	position: fixed;	
-	}	
+#botresnavgi	
+		{	
+			color: #000000;
+			background-color:#4286f4;
+			position:fixed;
+			font-family: "avenir", sans-serif;
+			bottom:0;
+			left:0;
+			width:100%;
+			text-align: center;	
+			word-spacing: 0 auto;
+			padding-left: 10%;
+			padding-right: 0 auto; 
+		}
+		#mfliphome,#mflipabt,#mflipprod,#mflipcont	
+		{	
+			text-align: center;
+			display: inline-block;
+			float: left;
+			font-size: 15px;
+			color:white;
+			padding-top: 0 auto;	 
+			margin:2%;
+		}
 
-	#y
-	{	
-		font-size:30px;
-		top: 0;
-		left: 0;
-		padding-left:50%;
-		text-align: center;
-		color: #ffffff;
-		background-color:#000000;
-	}
-
-	#resnav
-	{
-		top: 0;
-		left: 0;
-		background-color:#000000; 
-		position: fixed;
-		width: 60%;
-		height: 100%;
-		text-align: center;
-	}
-
-
-	#pinnav
-			{
-				padding-bottom:  0 auto ;	
-			}
 
 	#panelhome
 	{
@@ -112,22 +93,6 @@
 		background-color: #ffffff;		
 	}				
 
-
-	#mfliphome,#mflipabt,#mflipprod,#mflipcont
-	{
-		text-align: center;
-		padding-top: 48px;
-		font-size: 25px;
-		margin-top: 1%;
-		color:white;
-		padding-left: 0%;	 
-	}
-
-	#mfliphome:hover,#mflipabt:hover,#mflipprod:hover,#mflipcont:hover
-	{
-		color: #3399ff;
-		cursor: pointer;
-	}
 
 	.mhide
 	{
