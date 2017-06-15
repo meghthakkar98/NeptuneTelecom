@@ -57,6 +57,7 @@
 
 #botresnavgi	
 		{	
+			padding-top:10%;
 			color: #000000;
 			background-color:#4286f4;
 			position:fixed;
@@ -173,8 +174,7 @@
 		font-family: "avenir", sans-serif;	
 	}
 
-#map{
-		padding-left: 50px;
+#map{		
         height: 400px;
         width: 50%;
     }
