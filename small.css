@@ -173,20 +173,18 @@
 		font-family: "avenir", sans-serif;	
 	}
 
-#map {
-		margin: 0;
-		padding: 0;
-        height: 400px;
-        width: 100%;
-       }
-
-
-#pfot
-{
-	font-size: 18px;
-	font-family: "avenir", sans-serif;
-	color: #ffff1a;	
-}
+	#map
+	{
+        	height: 400px;
+        	width: 50%;
+    	}
+	
+	#pfot
+	{
+		font-size: 18px;
+		font-family: "avenir", sans-serif;
+		color: #ffff1a;	
+	}
 
 
 	#icon
