@@ -11,9 +11,30 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="icon" href="https://github.com/meghthakkar98/NeptuneTelecom/blob/gh-pages/icon.jpg?raw=true">
 	<link href="//fonts.googleapis.com/css?family=Dancing+Script,Roboto,Pacifico" rel="stylesheet">											
-	<script src = "https://maps.googleapis.com/maps/api/js"></script>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title>Neptune Telecom</title>
+
+		<script src = "https://maps.googleapis.com/maps/api/js"></script>	
+
+		<script>
+				
+			         function loadMap() {
+			
+            var mapOptions = {
+               center:new google.maps.LatLng(19.373341, 78.662109),
+               zoom:7
+            }
+				
+            var map = new google.maps.Map(document.getElementById("sample"),mapOptions);
+            
+            var marker = new google.maps.Marker({
+               position: new google.maps.LatLng(17.088291, 78.442383),
+               map: map,
+            });
+         }
+
+         </script>
+
 
 </head>
 <body onload = "loadMap()">
@@ -263,24 +284,9 @@
 <div id="panelcont">
 	<!--panel contact-->
 
-			<div id = "sample" style = "width:570px; height:580px;"></div>
+			<div id = "sample" style = "width:370px; height:380px;"></div>
     
-			<script>
-				
-			         function loadMap() {
 			
-            var mapOptions = {
-               center:new google.maps.LatLng(23.024897,72.570858), zoom:12,
-               mapTypeId:google.maps.MapTypeId.ROADMAP
-            };
-				
-            var map = new google.maps.Map(document.getElementById("sample"),mapOptions);
-         }
-         </script>
-
-        
-
-
 
 
 				<div class="main">
