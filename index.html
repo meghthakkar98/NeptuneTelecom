@@ -11,11 +11,12 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="icon" href="https://github.com/meghthakkar98/NeptuneTelecom/blob/gh-pages/icon.jpg?raw=true">
 	<link href="//fonts.googleapis.com/css?family=Dancing+Script,Roboto,Pacifico" rel="stylesheet">											
+	<script src = "https://maps.googleapis.com/maps/api/js"></script>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title>Neptune Telecom</title>
 
 </head>
-<body>
+<body onload = "loadMap()">
 
 
 
@@ -262,27 +263,22 @@
 <div id="panelcont">
 	<!--panel contact-->
 
-			<div id="map"></div>
+			<div id = "sample" style = "width:570px; height:580px;"></div>
     
 			<script>
 				
-			function initMap() {
- 										var uluru = {lat: 23.024897, lng: 72.570858};
-  										var map = new google.maps.Map(document.getElementById('map'), {
-    									zoom: 17,
-    									center: uluru
-  									});
-  							
-  										var marker = new google.maps.Marker({
-    									position: uluru,
-    									map: map
-  									});
-								}      
-			</script>
+			         function loadMap() {
+			
+            var mapOptions = {
+               center:new google.maps.LatLng(23.024897,72.570858), zoom:12,
+               mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+				
+            var map = new google.maps.Map(document.getElementById("sample"),mapOptions);
+         }
+         </script>
 
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdGmHpVt9rOQ1MRAt7FKhHU-dDfyylOfw&callback=initMap">
-    </script>
-
+        
 
 
 
@@ -340,3 +336,4 @@
 
 </body>
 </html>
+
