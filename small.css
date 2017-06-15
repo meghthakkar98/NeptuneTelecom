@@ -56,30 +56,25 @@
 
 #botresnavgi	
 		{	
-			
-			color: #000000;
+			text-align: center;
 			background-color:#4286f4;
 			position:fixed;
-			font-family: "avenir", sans-serif;
 			bottom:0;
 			left:0;
-			width:100%;
-			text-align: center;	
-			word-spacing: 0 auto;
+			width:100%;	
 			padding-top: 3%;
-			padding-left: 11%;
+			padding-left: 10%;
 			padding-right: 0 auto; 
 			padding-bottom: 3%;
 		}
 
 		#mfliphome,#mflipabt,#mflipprod,#mflipcont	
 		{	
-			text-align: center;
+			font-family: "avenir", sans-serif;
 			display: inline-block;
 			float: left;
 			font-size: 15px;
-			color:white;
-			padding-top: 0 auto;	 
+			color:white;	 
 			margin:2%;
 		}
 
