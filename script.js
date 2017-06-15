@@ -6,13 +6,13 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
 //map
 $(document).ready(function(){
 	$("#flipcont").click(function(){
-		$("panelcont").load("myMap")
+		$("panelcont").load("myMap()")
 	});
 });
 
 $(document).ready(function(){
 	$("#mflipcont").click(function(){
-		$("panelcont").load("myMap")
+		$("panelcont").load("myMap()")
 	});
 });
 
