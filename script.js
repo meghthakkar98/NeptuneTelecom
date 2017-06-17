@@ -10,11 +10,6 @@ $(document).ready(function(){
 	});
 });
 
-$(document).ready(function(){
-	$("#mflipcont").click(function(){
-		$("panelcont").load("myMap()")
-	});
-});
 
 //intro
 $(document).ready(function(){
