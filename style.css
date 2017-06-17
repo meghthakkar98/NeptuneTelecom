@@ -40,6 +40,10 @@ h1,h2,h3,h4,h5,h6
 	font-family: "avenir", sans-serif;
 }
 
+#pr
+{
+	color: #3399ff;
+}
 
 #prodset
 {
@@ -117,12 +121,12 @@ h1,h2,h3,h4,h5,h6
 			
 div.gallery 
 {
-    border: 1px solid #777;
+    
 }
 
 div.gallery:hover 
 {
-    border: 1px solid #777;
+    
 }
 
 div.gallery img 
@@ -135,6 +139,7 @@ div.gallery img
 
 div.desc
 {
+	background-color:#bfbfbf;	
 	border: 1px solid #777;
     padding: 15px;
     text-align: center;
@@ -397,4 +402,5 @@ p.skills3
 			{
 				width: 90%;
 			}
+		
 		}
