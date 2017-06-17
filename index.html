@@ -11,6 +11,7 @@
 	<link rel="icon" href="https://github.com/meghthakkar98/NeptuneTelecom/blob/gh-pages/icon.jpg?raw=true">
 	<link href="//fonts.googleapis.com/css?family=Dancing+Script,Roboto,Pacifico" rel="stylesheet">											
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src = "https://maps.googleapis.com/maps/api/js"></script>
 	<title>Neptune Telecom</title>
 
 </head>
@@ -253,6 +254,7 @@
 	<!--panel product-->
 
 
+
 	<!--panel product Ends-->		
 </div>		
 
@@ -267,18 +269,23 @@
     
 
 
-<div id="map" class="mhide"></div>
+<div id = "sample" style = "width:580px; height:400px;"></div>
 	
 <script>
-
-function myMap() {
-  var myCenter = new google.maps.LatLng(23.0249460,72.5706800);
-  var mapCanvas = document.getElementById("map");
-  var mapOptions = {center: myCenter, zoom: 17};
-  var map = new google.maps.Map(mapCanvas, mapOptions);
-  var marker = new google.maps.Marker({position:myCenter});
-  marker.setMap(map);
-}
+function loadMap() {
+			
+            var mapOptions = {
+               center:new google.maps.LatLng(23.0247901,72.5708422),
+               zoom:17
+            }
+				
+            var map = new google.maps.Map(document.getElementById("sample"),mapOptions);
+            
+            var marker = new google.maps.Marker({
+               position: new google.maps.LatLng(23.0247901,72.5708422),
+               map: map,
+            });
+         }	
 
 </script>
 
