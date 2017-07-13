@@ -1,4 +1,4 @@
-	body
+ 	body
 	{
 		background-color: #ffffff;
 	}
@@ -73,6 +73,23 @@
 			padding-bottom: 3%;
 		}
 
+
+	@media only screen and (max-width: 320px)
+	{
+		#botresnavgi
+		{
+			padding-left: 9%;
+		}
+	}
+
+	@media only screen and (min-width: 321px) and (max-width: 767px)
+	{
+		#botresnavgi
+		{
+			padding-left: 15%;
+		}
+	}
+
 		#mfliphome,#mflipabt,#mflipprod,#mflipcont	
 		{	
 			font-family: "avenir", sans-serif;
@@ -124,7 +141,7 @@
 		font-family:"avenir", sans-serif;
 		font-size:14px;
 		border: 1px solid #777;
-	    background-color:#bfbfbf;
+	    background-color:#d9d9d9;
 	    padding: 15px;
 	    text-align: center;
 	}
@@ -142,7 +159,7 @@
 
 	@media only screen and (max-width: 700px)
 	{
-	    .responsive 
+		    .responsive 
 	    {
 	        width: 49.99999%;
 	        margin: 6px 0;
@@ -157,21 +174,6 @@
 	    }
 	}
 
-	@media only screen and (max-width: 320px)
-	{
-		#botresnavgi
-		{
-			padding-left: 9%;
-		}
-	}
-
-	@media only screen and (min-width: 321px) and (max-width: 767px)
-	{
-		#botresnavgi
-		{
-			padding-left: 15%;
-		}
-	}
 
 
 	.bla
@@ -208,8 +210,9 @@
 
 	#icon
 	{
+		
 		text-decoration: none;
-		color:#4286f4;
+		color:#ffffff;
 		word-spacing: 10px;
 	}					
 	#icon:hover
@@ -391,3 +394,25 @@ p.skills3
 				width: 90%;
 			}
 		}
+
+#imgp
+{
+	width:100%;
+	height:10%;
+	border:1px solid black;
+}		
+
+#descp
+{
+	height: 0 auto;
+	width: 100%;
+	background-color:#d9d9d9;	
+	border: 1px solid #000000;
+    text-align: center;	
+}
+
+
+br
+{
+	color: white;
+}
