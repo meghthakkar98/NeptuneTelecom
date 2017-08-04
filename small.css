@@ -178,6 +178,7 @@
 
 	.bla
 	{
+		margin: 0;
 		margin-bottom: 50px;
 		padding:40px;
 		margin-top: 170px;
@@ -229,6 +230,8 @@
 	text-align: center;
   	width: 70%;
   	background-color: #ddd;
+  	border-radius: 9px;
+  	box-shadow: 5px 5px #000;
 }
 
 .skills 
@@ -266,6 +269,7 @@ p.skills
 	color: black;
 	font-size:20px;
 	font-family:"avenir",cursive; 
+		font-weight: bold;
 }
 
 p.skills2
@@ -292,6 +296,7 @@ p.skills2
 	color: black;
 	font-size:20px;
 	font-family:"avenir",cursive; 
+	font-weight: bold;	
 }
 
 p.skills3
@@ -398,7 +403,7 @@ p.skills3
 #imgp
 {
 	width:100%;
-	height:25%;
+	height:30%;
 	border:1px solid black;
 }		
 
